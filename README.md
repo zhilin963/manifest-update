@@ -19,7 +19,9 @@ Licensee generates the latest version of a manifest file, he uploads it to block
 **modifier checkName()**: check if the file name is correct.  
 **modifier checkVersion()**: check if the manifest version is the latest.  
 **uploadManifest()**: upload each parameter of the latest manifest.  
- <div align=center><img width="600" height="400" src="https://github.com/zhilin963/manifest-update/blob/main/IMG/function1.png" />  </div>   
+ <div align=center><img width="600" height="400" src="https://github.com/zhilin963/manifest-update/blob/main/IMG/function1.png" />  </div>  
+ 
 **getManifest()**: get the actual version of manifest.  
+
 **downloadManifest()**: download the latest manifest if available.  
 <div align=center><img width="600" height="500" src="https://github.com/zhilin963/manifest-update/blob/main/IMG/function2.png" />  </div>    
