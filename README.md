@@ -8,7 +8,8 @@ A smart contract for IoT device to update its local manifest file. The smart con
 Licensee generates the latest version of a manifest file, then uploads it to blockchain via a smart contract. Periodically, the device requests for the latest version of this manifest via the same smart contract. If the latest version is available, the device downloads it to local storage. To achieve this functionality, Licensee programs the smart contract **manifestUpdate.sol**, then deploys it on Ethereum blockchain.
 <div align=center><img width="600" height="300" src="https://github.com/zhilin963/manifest-update/blob/main/IMG/framework.jpg" />  </div>  
 
-* **Manifest Upload**
+* **Manifest Upload**  
+Licensee generates the latest manifest, upload it to blockchain via a smart contract, which records the name, the version number and the content of manifest.
 * **Sending Request**
 * **Manifest Download**
 
