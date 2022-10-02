@@ -13,7 +13,7 @@ Licensee generates the latest manifest, upload it to blockchain via a smart cont
 * **Sending Request**  
 Device sends the update request periodically to the blockchain. The request must contain the address, version number, and file name of the device.
 * **Manifest Download**  
-The smart contract receives the request, then checks the name, the address and the existing manifest version of the device. If the existing manifest is not the latest, moreover, the latest version is available, then the device can download the latest manifest through this smart contract.
+The smart contract receives the request, then checks the name, the address and the existing manifest version of the device. If the existing manifest of device is not the latest, moreover, the latest version is available, then the device can download the latest manifest through this smart contract.
 
 ## 3. Functional Design
 <div align=center><img width="300" height="500" src="https://github.com/zhilin963/manifest-update/blob/main/IMG/contract2.jpg" />  </div>  
