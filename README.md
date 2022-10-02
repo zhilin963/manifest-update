@@ -9,7 +9,7 @@ Licensee generates the latest version of a manifest file, then uploads it to blo
 <div align=center><img width="600" height="300" src="https://github.com/zhilin963/manifest-update/blob/main/IMG/framework.jpg" />  </div>  
 
 * **Manifest Upload**  
-Licensee generates the latest manifest, upload it to blockchain via a smart contract, which records the name, the version number and the content of manifest. In addition, the smart contract also checks whether the identity of the publisher is the specific licensee.
+Licensee generates the latest manifest, upload it to blockchain via a smart contract, which records the name, the version number and the content of manifest. In addition, the smart contract also checks whether the identity of the publisher is the specific Licensee.
 * **Sending Request**  
 Device sends the update request periodically to the blockchain. The request must contain the address, version number, and file name of the device.
 * **Manifest Download**  
