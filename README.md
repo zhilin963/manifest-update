@@ -10,7 +10,8 @@ Licensee generates the latest version of a manifest file, then uploads it to blo
 
 * **Manifest Upload**  
 Licensee generates the latest manifest, upload it to blockchain via a smart contract, which records the name, the version number and the content of manifest.
-* **Sending Request**
+* **Sending Request**  
+Device sends the update request periodically to the blockchain. The smart contract receives the request, then check the name, the address and the existing version number of device.
 * **Manifest Download**
 
 ## 3. Functional Design
