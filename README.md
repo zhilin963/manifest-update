@@ -10,3 +10,6 @@ A smart contract for IoT device to update its local manifest file. The smart con
 * **Manifest Upload**
 * **Sending Request**
 * **Manifest Download**
+
+## 3. Functional Design
+<div align=center><img width="300" height="500" src="https://github.com/zhilin963/manifest-update/blob/main/IMG/contract2.jpg" />  </div>  
