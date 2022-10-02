@@ -5,7 +5,7 @@ Smart contract written in Solidity
 A smart contract for IoT device to update its local manifest file. The smart contract ensures that only the latest version of a specific manifest can be downloaded to the local device. Moreover, the publisher of this manifest must be a specific Licensee as well.  
 
 ## 2. Operations
-Periodically, the device requests for the latest version of a specific manifest file via a smart contract. If the latest version is available, the device downloads it to local storage. To achieve this functionality, Licensee programs the smart contract **manifestUpdate.sol**, then deploys it in Ethereum blockchain.
+Licensee generates the latest version of manifest file, he upload it to blockchain via a smart contract. Periodically, the device requests for the latest version of this manifest via the same smart contract. If the latest version is available, the device downloads it to local storage. To achieve this functionality, Licensee programs the smart contract **manifestUpdate.sol**, then deploys it in Ethereum blockchain.
 <div align=center><img width="600" height="300" src="https://github.com/zhilin963/manifest-update/blob/main/IMG/framework.jpg" />  </div>  
 
 * **Manifest Upload**
