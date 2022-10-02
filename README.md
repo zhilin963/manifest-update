@@ -12,5 +12,12 @@ A smart contract for IoT device to update its local manifest file. The smart con
 * **Manifest Download**
 
 ## 3. Functional Design
-Periodically, the device requests for the latest version of a specific manifest file via a smart contract. If the latest version is available, the device downloads it to local storage. To achieve this functionality, Licensee programs the contract **manifestUpdate.sol**, then deploys the contract in Ethereum blockchain.
+Periodically, the device requests for the latest version of a specific manifest file via a smart contract. If the latest version is available, the device downloads it to local storage. To achieve this functionality, Licensee programs the smart contract **manifestUpdate.sol**, then deploys it in Ethereum blockchain.
 <div align=center><img width="300" height="500" src="https://github.com/zhilin963/manifest-update/blob/main/IMG/contract2.jpg" />  </div>  
+
+**modifier isVendor()**: check if the message sender is the Licensee.
+**modifier checkName()**: check if the file name is correct.
+**modifier checkVersion()**: check if the manifest version is the latest.
+**uploadManifest()**: upload each parameter of the latest manifest.
+**getManifest()**: get the actual version of manifest.
+**downloadManifest()**: download the latest manifest if available.
